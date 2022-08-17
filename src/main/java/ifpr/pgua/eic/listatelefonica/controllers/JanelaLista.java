@@ -56,7 +56,8 @@ public class JanelaLista {
 
         if(contato != null){
             taDetalhes.appendText("Nome: "+contato.getNome()+"\n");
-            taDetalhes.appendText("Telefone: "+contato.getNome()+"\n");    
+            taDetalhes.appendText("Telefone: "+contato.getTelefone()+"\n");    
+            taDetalhes.appendText("Email: "+contato.getEmail()+"\n"); 
         }
     }
 
